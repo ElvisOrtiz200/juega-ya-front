@@ -1,0 +1,145 @@
+.uk-flex {
+    display: flex
+}
+
+.uk-flex-middle {
+    align-items: center
+}
+
+.uk-flex-center {
+    justify-content: center
+}
+
+.uk-utility-vertical-scroller-wrapper {
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.uk-overflow-hidden {
+    overflow: hidden
+}
+
+.uk-utility-vertical-scroller-carousel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%
+}
+
+.uk-slider-vertical-items {
+    margin-top: -1em
+}
+
+.uk-noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.uk-display-flex {
+    display: flex!important
+}
+
+.uk-utility-vertical-scroller-carousel-item {
+    align-items: center;
+    color: unset;
+    display: none;
+    opacity: 1;
+    position: relative;
+    transform-origin: left;
+    transition: opacity .5s;
+    transition: color .3s ease;
+    width: 100%
+}
+
+.uk-utility-vertical-scroller-carousel-content {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+    width: 100%
+}
+
+.uk-utility-vertical-scroller-carousel-meta-title {
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.uk-utility-vertical-scroller-carousel-title {
+    font-size: 40px;
+    font-weight: 600
+}
+
+.uk-utility-vertical-scroller-carousel-image {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    height: 160px;
+    justify-content: center;
+    margin-right: 12px;
+    opacity: 1;
+    padding: 0;
+    position: relative;
+    transition: transform .3s ease,opacity .3s ease;
+    width: 160px
+}
+
+.uk-utility-vertical-scroller-icon {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: inline-flex;
+    height: 40px;
+    justify-content: center;
+    transition: border 1s ease-in-out,background-color 1s ease-in-out,border-color 1s ease-in-out;
+    width: max-content;
+    width: 40px
+}
+
+.uk-position-relative {
+    position: relative!important
+}
+
+.uk-position-z-index {
+    z-index: 1
+}
+
+.uk-utility-vertical-scroller-icon-down svg {
+    transform: rotate(-90deg);
+    width: 16px
+}
+
+.uk-utility-vertical-scroller-icon-down svg path {
+    transition: stroke 1s ease-in-out
+}
+
+.uk-utility-vertical-scroller-icon-up svg {
+    transform: rotate(90deg);
+    width: 16px
+}
+
+.uk-utility-vertical-scroller-icon-up svg path {
+    transition: stroke 1s ease-in-out
+}
+
+.uk-icon {
+    fill: currentcolor;
+    background-color: initial;
+    border: none;
+    border-radius: 0;
+    color: inherit;
+    display: inline-block;
+    font: inherit;
+    line-height: 0;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    text-transform: none
+}
