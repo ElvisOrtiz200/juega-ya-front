@@ -27,7 +27,7 @@ const Section1 = () => {
     <div className="relative h-auto bg-[#011828] overflow-hidden lg:px-24 lg:py-28 xl:px-24 xl:py-28 px-5 py-10 ">
       
         <div className='text-[20px] lg:text-[37px] xl:text-[52px] text-white text-center font-extrabold'>Reserva tu cancha favorita en segundos y empieza a jugar ya.</div>
-        <div className='text-[8px] lg:text-[15px] xl:text-[22px] text-white italic text-center pt-8'>Ya no necesitas llamar para preguntar. Reserva en línea fácilmente y aprovecha cada minuto en la cancha.</div>
+        <div className='text-[8px] lg:text-[15px] xl:text-[22px] text-white italic text-center pt-8'>Ya no necesitas llamar para preguntar. ¡Reserva en línea fácilmente y aprovecha cada minuto en la cancha!</div>
         <div className="container mx-auto p-4 text-center mt-9">
            
             <Link href="/dataCollect">
