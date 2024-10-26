@@ -129,10 +129,10 @@ export default function Autocomplete() {
                             value={nombreSolicitud}
                             onChange={(e) => setNombreSolicitud(e.target.value)} 
                             placeholder="Escribe un lugar"
-                            className="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring focus:ring-blue-300"
+                            className="w-full border text-black border-gray-300 rounded-lg p-2 focus:outline-none focus:ring focus:ring-blue-300"
                         />
                         {results.length > 0 && (
-                            <ul className="absolute z-50 w-full max-h-72 bg-white border border-gray-200 rounded-lg overflow-y-auto mt-1">
+                            <ul className="absolute z-50 w-full max-h-72 bg-white border text-black border-gray-200 rounded-lg overflow-y-auto mt-1">
                                 {results.map((place, index) => (
                                     <li 
                                         key={index} 
